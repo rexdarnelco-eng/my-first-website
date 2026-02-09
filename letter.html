@@ -2,71 +2,119 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Open Letter</title>
+  <title>An Open Letter</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Great+Vibes&display=swap" rel="stylesheet">
+
   <style>
     body {
-      background-color: #f5f7fa;
-      font-family: Georgia, "Times New Roman", serif;
-      color: #333;
-      line-height: 1.8;
-      padding: 40px;
-      max-width: 800px;
-      margin: auto;
+      background: #f9fafc;
+      margin: 0;
+      padding: 0;
+      font-family: "Playfair Display", serif;
+      color: #2c2c2c;
     }
+
+    .container {
+      max-width: 750px;
+      margin: 60px auto;
+      padding: 40px 30px;
+      background: #ffffff;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      border-radius: 12px;
+      animation: fadeIn 1.8s ease;
+    }
+
     h1 {
       text-align: center;
-      color: #222;
+      font-family: "Great Vibes", cursive;
+      font-size: 48px;
+      margin-bottom: 40px;
+      color: #1f1f1f;
     }
-    .letter {
-      margin-top: 30px;
+
+    p {
       font-size: 18px;
+      line-height: 1.9;
+      margin-bottom: 22px;
     }
+
     .signature {
       margin-top: 40px;
+      font-size: 20px;
       font-style: italic;
+      text-align: right;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(15px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 30px 15px;
+        padding: 30px 20px;
+      }
+
+      h1 {
+        font-size: 40px;
+      }
+
+      p {
+        font-size: 17px;
+      }
     }
   </style>
 </head>
+
 <body>
 
-<h1>An Open Letter</h1>
+  <div class="container">
+    <h1>An Open Letter</h1>
 
-<div class="letter">
-  <p>Hi,</p>
+    <p>Hi,</p>
 
-  <p>
-    This might come as a surprise, but I wanted to be honest rather than keep this to myself.
-  </p>
+    <p>
+      This may come unexpectedly, but I felt it was better to be honest than to leave these feelings unspoken.
+    </p>
 
-  <p>
-    I first saw you at school during the CBSE LOC form time. At that moment, I reacted casually,
-    but as time passed — especially now, at the end of school — I realized how much I miss seeing you
-    and how much I wish I had spoken to you then.
-  </p>
+    <p>
+      I first noticed you at school during the CBSE LOC form time. I didn’t think much of it then,
+      but as time passed — especially now, at the end of school — I realized how much I missed seeing you
+      and how much I wished I had spoken to you at that moment.
+    </p>
 
-  <p>
-    You don’t know me, not even my name, and I understand that. Still, I wanted to say this respectfully.
-  </p>
+    <p>
+      You don’t know me, not even my name, and I understand that completely. Still, I wanted to say this with respect.
+    </p>
 
-  <p>
-    I like you not just because of how you look, but because of the kind of person you seem to be.
-    From what I’ve seen and you've shared, you feel like someone with a pure heart — strong, kind, and genuine.
-    Your nature itself feels beautiful.
-  </p>
+    <p>
+      I admire you not only for how you look, but for the kind of person you seem to be.
+      From what I’ve seen and , you come across as someone kind, strong, and genuine.
+      There’s a quiet sincerity about you that feels truly beautiful.
+    </p>
 
-  <p>
-    There’s absolutely no pressure or expectation from you. I just wanted to express what I feel honestly.
-    If you’re open to it, I’d really like to talk and get to know you better someday.
-  </p>
+    <p>
+      There’s no pressure or expectation behind this message. I simply wanted to express how I feel honestly.
+      If you’re ever open to it, I’d be happy to talk and get to know you better someday.
+    </p>
 
-  <p>
-    Thank you for reading this, and I wish you nothing but the best, no matter your answer.
-  </p>
+    <p>
+      Thank you for reading this, and I wish you nothing but happiness, regardless of your answer.
+    </p>
 
-  <p class="signature">
-    — tyng
-  </p>
-</div>
+    <p class="signature">
+      — tyng
+    </p>
+  </div>
 
 </body>
 </html>
