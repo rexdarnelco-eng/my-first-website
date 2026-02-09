@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>An Open Letter</title>
+</head>
+<body>
+
+  <h1>An Open Letter</h1>
+
+  <p>Hi,</p>
+
+  <p>
+    This may come as a surprise, but I felt it was better to be honest
+    than to keep this to myself.
+  </p>
+
+  <p>
+    I first saw you at school during the CBSE LOC form period.
+    At the time, I reacted casually, but as the days passed,
+    I realized how much I miss seeing you.
+  </p>
+
+  <p>
+    Thank you for reading this. No matter your response,
+    I wish you the very best.
+  </p>
+
+  <p>— Your Name</p>
+
+</body>
+</html>
